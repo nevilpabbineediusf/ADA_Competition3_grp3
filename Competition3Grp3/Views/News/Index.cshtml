@@ -1,0 +1,16 @@
+﻿@model List<Competition3Grp3.Models.Article>
+
+<div class="container mt-4">
+    <h2>Top Business News</h2>
+    <hr />
+    @foreach (var article in Model)
+    {
+        <div class="mb-3">
+            <strong>@article.SourceName</strong><br />
+            <p>@article.Title</p>
+            <a href="@article.Url" target="_blank">Read Full Article</a>
+            <hr />
+        </div>
+    }
+</div>
+

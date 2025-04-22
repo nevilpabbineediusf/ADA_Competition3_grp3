@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Competition3Grp3.props" />
+</Project>
